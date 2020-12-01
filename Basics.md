@@ -15,6 +15,11 @@ To view the nodes in a cluster.
 ```
 kubectl get nodes
 ```
+To list the replication controllers you created in the cluster 
+```
+
+kubectl get rc
+```
 
 To deploy an application :- 
 ```
@@ -89,4 +94,9 @@ Enable the dashboard using minikube:-
 
 ```
 minikube addons enable dashboard (Have to use a yaml file for deployment and config, check here.
+```
+
+Delete all the resources by running 
+```
+kubectl delete -f filename (deletes all the clusters and controllers associated)
 ```
