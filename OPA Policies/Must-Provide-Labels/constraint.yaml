@@ -1,0 +1,14 @@
+apiVersion: constraints.gatekeeper.sh/v1beta1
+kind: K8sRequiredLabels
+metadata:
+  name: all-must-have-name
+spec:
+  match:
+    kinds:
+      - apiGroups: [""]
+        kinds: ["Namespace"]
+  parameters:
+    message: "All namespaces must have an `employee` label that points to intern company"
+    labels:
+      - key: owner
+        allowedRegex: "^[a-zA-Z]+.cloudsec.demo$"
