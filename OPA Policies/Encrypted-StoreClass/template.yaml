@@ -1,0 +1,24 @@
+apiVersion: templates.gatekeeper.sh/v1beta1
+kind: ConstraintTemplate
+metadata:
+  name: k8scencrypt
+spec:
+  crd:
+    spec:
+      names:
+        kind: StorageClass
+  targets:
+    - target: admission.k8s.gatekeeper.sh
+      rego: |
+         
+package k8scencrypt
+
+deny[message] {
+
+   input.request.kind.kind == "StorageClass"
+
+   cont := input.request.object.parameters
+
+   not cont.encrypted
+
+   message := sprintf("Storage class %v not encrypted", [input.request.object.metadata.name])
