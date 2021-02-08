@@ -2,11 +2,6 @@
   "title": "OPA Gatekeeper Policies",
   "description": "Opa gatekeper policies",
   "courses": [
-    {
-      "course_id": "gatekeeper",
-      "title": "OPA Gatekeeper",
-      "description": "Enforce policies using OPA Gatekeeper"
-    },
     { 
       "course_id": "DenyPriv-Containers",
       "title": "Deny Privilege Containers",
