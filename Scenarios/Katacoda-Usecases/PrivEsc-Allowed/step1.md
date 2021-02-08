@@ -1,0 +1,1 @@
+Setting allowPrivilegeEscalation to false ensures that no child process of a container can gain more privileges than its parent. So we are making policy for ensuring allowance of privilege escalation.

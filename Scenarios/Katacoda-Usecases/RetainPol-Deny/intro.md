@@ -1,0 +1,1 @@
+Retain Reclaim Policy allows us the manual reclamation of any resource. We are going to implement OPA policy for the situation when we need to block the StorageClass containing the “Retain” as the Reclaim Policy. 

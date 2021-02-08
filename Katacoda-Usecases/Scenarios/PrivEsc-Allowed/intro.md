@@ -1,0 +1,1 @@
+We are going to implement OPA policy for the situation when we need to make sure pod contains the security context with allowPrivilegeEscalation=true. This defaults to allowed so as to not break setuid binaries. 

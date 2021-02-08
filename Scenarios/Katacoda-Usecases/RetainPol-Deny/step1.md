@@ -1,0 +1,1 @@
+The error message is printed on violation along with the name of the StorageClass used when on checking it returns “Retain” as the string in it leading the field becomes TRUE and our policy is violated.
