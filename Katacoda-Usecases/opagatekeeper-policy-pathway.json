@@ -1,0 +1,32 @@
+{
+  "title": "OPA Gatekeeper Policies",
+  "description": "Opa gatekeper policies",
+  "courses": [
+    {
+      "course_id": "gatekeeper",
+      "title": "OPA Gatekeeper",
+      "description": "Enforce policies using OPA Gatekeeper"
+    },
+    { 
+      "course_id": "DenyPriv-Containers",
+      "title": "Deny Privilege Containers",
+      "description": "A policy to prevent the deny the privilege containers usage"
+    },
+    { 
+      "course_id": "Encrypted-Storclass",
+      "title": "Encrypted Storage Class",
+      "description": "A policy to unsure that StorageClass is encrypted"
+    },
+    { 
+      "course_id": "PriveEsc-Allowed",
+      "title": "Allow privilege escalation",
+      "description": "A policy to make sure privilege escalation is allowed"
+    },
+    { 
+      "course_id": "RetainPol-Deny",
+      "title": "Deny Retain Reclaim Policy",
+      "description": "A policy to deny Reclaim Policy of Retain Type"
+    },
+    
+  ]
+}
