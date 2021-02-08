@@ -1,1 +1,0 @@
-We are going to implement OPA policy for the situation when the pod contains the “privileged” property as TRUE and thus to block such containers.
