@@ -1,1 +1,0 @@
-We are going to implement OPA policy for the situation when our focus is drawn for "encrypted" under the parameters field to be "true" for successful implementation of the StorageClass. Thus is ensures that StorageClass in encrypted.

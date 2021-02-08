@@ -1,1 +1,0 @@
-A privileged container is allowed to access to all the devices on the host with the same privileges of the process running on the host. Just in order to prevent the abuse of privilege mode we are making the policy for denying the privilege containers.
